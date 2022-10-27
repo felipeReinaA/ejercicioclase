@@ -13,10 +13,10 @@ class _TituloState extends State<Titulo> {
     return Row(
       children: [
         Container(
-          width: 300,
+          width: 250,
           height: 100,
           color: Colors.transparent,
-          margin: EdgeInsets.only(top: 100),
+          margin: EdgeInsets.only(top: 50),
           child: Text('ViajApp',
             style: TextStyle(
                 fontSize: 60,
@@ -29,12 +29,12 @@ class _TituloState extends State<Titulo> {
 
         ),
         Container(
-          width: 80,
+          width: 110,
           height: 100,
-          margin: EdgeInsets.only(top: 100),
+          margin: EdgeInsets.only(top: 22),
           decoration: BoxDecoration(
             image: DecorationImage(
-                image: AssetImage('imagenes/log1.png')
+                image: AssetImage('imagenes/log_pop-fon.fw.png')
             ),
           ),
         )

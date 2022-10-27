@@ -1,6 +1,6 @@
-
+import 'package:ejercicioclase/vistas/DetallesPOIUno.dart';
 import 'package:ejercicioclase/vistas/login.dart';
-import 'package:ejercicioclase/vistas/ListaPaseadores.dart';
+import 'package:ejercicioclase/vistas/ListaPOI.dart';
 import 'package:ejercicioclase/vistas/vistaprincipal.dart';
 import 'package:flutter/material.dart';
 
@@ -23,8 +23,8 @@ class Inicio extends StatelessWidget {
         child: Scaffold(
           backgroundColor: Colors.transparent,
           //body: Login(
-          //body:ListaPaseadores(
-          body:VistaPrincipal(
+          body: DetallePOIUno(
+          //body:VistaPrincipal(
 
           ),
         ),

@@ -25,7 +25,7 @@ class _VistaPrincipalState extends State<VistaPrincipal> {
           height: 50,
           width: 160,
           margin: EdgeInsets.only(bottom: 50),
-          child: botonUno(),
+          child: botonSomos(),
           ),
         ),
 
@@ -35,7 +35,7 @@ class _VistaPrincipalState extends State<VistaPrincipal> {
             height: 50,
             width: 160,
             margin: EdgeInsets.only(bottom: 50),
-            child: botonDos(),
+            child: botonLogin(),
           ),
         ),
 
@@ -45,8 +45,7 @@ class _VistaPrincipalState extends State<VistaPrincipal> {
             height: 50,
             width: 160,
             margin: EdgeInsets.only(bottom: 50),
-            child: botonTres(),
-
+            child: botonRegistrate(),
           ),
         ),
       ],
@@ -54,12 +53,12 @@ class _VistaPrincipalState extends State<VistaPrincipal> {
   }
 
   //WIDGET PARA HACER LOS BOTONES
-  ElevatedButton botonUno(){
+  ElevatedButton botonSomos(){
   return ElevatedButton(
       style: TextButton.styleFrom(
-        backgroundColor: Colors.pink
+        backgroundColor: Colors.pink,
       ),
-    child: Text('Somos',
+    child: Text('Quienes \n Somos',
     style: TextStyle(
       fontFamily: 'texto',
       fontSize: 30,
@@ -72,12 +71,12 @@ class _VistaPrincipalState extends State<VistaPrincipal> {
   );
   }
 
-  ElevatedButton botonDos(){
+  ElevatedButton botonLogin(){
     return ElevatedButton(
       style: TextButton.styleFrom(
           backgroundColor: Colors.transparent
       ),
-      child: Text('Ingresar',
+      child: Text('Login',
         style: TextStyle(
             fontFamily: 'texto',
             fontSize: 30,
@@ -90,7 +89,7 @@ class _VistaPrincipalState extends State<VistaPrincipal> {
     );
   }
 
-  ElevatedButton botonTres(){
+  ElevatedButton botonRegistrate(){
     return ElevatedButton(
       style: TextButton.styleFrom(
           backgroundColor: Colors.transparent

@@ -1,4 +1,4 @@
-import 'package:ejercicioclase/vistas/ListaPaseadores.dart';
+import 'package:ejercicioclase/vistas/ListaPOI.dart';
 import 'package:ejercicioclase/vistas/tituloprincipal.dart';
 import 'package:flutter/material.dart';
 
@@ -17,32 +17,39 @@ class _LoginState extends State<Login> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        backgroundColor: Colors.pink,
-        body: Padding(
-          padding: EdgeInsets.all(2),
-          child: ListView(
-            children: [
-              Container(
-                child: Titulo(),
-              ),
-              Container(
-                margin: EdgeInsets.only(top: 30),
-                child: const Text("Login",
-                  style: TextStyle(
-                    fontSize: 60,
-                    fontWeight: FontWeight.bold,
-                    fontFamily: 'titulo',
-                    color: Colors.greenAccent,
-                  ),
-                  textAlign: TextAlign.center,
+      home: Container(
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image:AssetImage('imagenes/f3.fw.png')
+          )
+        ),
+      child: Scaffold(
+          backgroundColor: Colors.transparent,
+          body: Padding(
+            padding: EdgeInsets.all(2),
+            child: ListView(
+              children: [
+                Container(
+                  child: Titulo(),
                 ),
-                padding: EdgeInsets.all(20),
-              ),
-              Xusuario(),
-              Xclave(),
-              btnlogin(),
-            ],
+                Container(
+                  margin: EdgeInsets.only(top: 20),
+                  child: const Text("Login",
+                    style: TextStyle(
+                      fontSize: 60,
+                      fontWeight: FontWeight.bold,
+                      fontFamily: 'titulo',
+                      color: Colors.greenAccent,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                  padding: EdgeInsets.all(20),
+                ),
+                Xusuario(),
+                Xclave(),
+                btnlogin(),
+              ],
+            ),
           ),
         ),
       ),
@@ -92,11 +99,11 @@ class _LoginState extends State<Login> {
   ElevatedButton btnlogin(){
     return ElevatedButton(
       style: TextButton.styleFrom(
-        backgroundColor: Colors.teal
+        backgroundColor: Colors.teal,
       ),
       child: Text('Ingresar',
       style: TextStyle(
-          fontSize: 20,
+          fontSize: 30,
           fontWeight: FontWeight.bold,
           fontFamily: 'texto',
           color: Colors.indigo,
@@ -107,7 +114,7 @@ class _LoginState extends State<Login> {
         cla=clave.text;
         if(usu=='pepe' && cla=='123'){
           print(usu);
-          Navigator.push(context, MaterialPageRoute(builder: (context)=>ListaPaseadores()));
+          Navigator.push(context, MaterialPageRoute(builder: (context)=>ListaPOI()));
         }
       },
     );
