@@ -1,4 +1,5 @@
-import 'package:ejercicioclase/vistas/tituloprincipal.dart';
+import 'package:appejercicio/vistas/tituloprincipal.dart';
+//import 'package:ejercicioclase/vistas/tituloprincipal.dart';
 import 'package:flutter/material.dart';
 
 
@@ -41,8 +42,8 @@ class _ListaPOIState extends State<ListaPOI> {
               Container(
                 color: Colors.indigo.shade300,
                   child: const ListTile(
-                    title: Text('Titulo de lista'),
-                    subtitle: Text('contenido'),
+                    title: Text('Casa Francisco José de Caldas'),
+                    subtitle: Text('es posible seguir las huellas de la Expedición Botánica que dirigió José Celestino Mutis...'),
                     leading: Icon(
                       Icons.add_location_alt_sharp,
                       color: Colors.green,

@@ -1,7 +1,9 @@
-import 'package:ejercicioclase/vistas/DetallesPOIUno.dart';
-import 'package:ejercicioclase/vistas/login.dart';
-import 'package:ejercicioclase/vistas/ListaPOI.dart';
-import 'package:ejercicioclase/vistas/vistaprincipal.dart';
+import 'package:appejercicio/vistas/DetallesPOIUno.dart';
+import 'package:appejercicio/vistas/vistaprincipal.dart';
+//import 'package:ejercicioclase/vistas/DetallesPOIUno.dart';
+//import 'package:ejercicioclase/vistas/login.dart';
+//import 'package:ejercicioclase/vistas/ListaPOI.dart';
+//import 'package:ejercicioclase/vistas/vistaprincipal.dart';
 import 'package:flutter/material.dart';
 
 void main() {

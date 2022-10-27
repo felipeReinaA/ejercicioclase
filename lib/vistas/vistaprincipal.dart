@@ -1,5 +1,7 @@
-import 'package:ejercicioclase/vistas/login.dart';
-import 'package:ejercicioclase/vistas/tituloprincipal.dart';
+import 'package:appejercicio/vistas/login.dart';
+import 'package:appejercicio/vistas/tituloprincipal.dart';
+//import 'package:ejercicioclase/vistas/login.dart';
+//import 'package:ejercicioclase/vistas/tituloprincipal.dart';
 import 'package:flutter/material.dart';
 
 class VistaPrincipal extends StatefulWidget {

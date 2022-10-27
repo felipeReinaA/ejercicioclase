@@ -1,5 +1,7 @@
-import 'package:ejercicioclase/vistas/ListaPOI.dart';
-import 'package:ejercicioclase/vistas/tituloprincipal.dart';
+import 'package:appejercicio/vistas/ListaPOI.dart';
+import 'package:appejercicio/vistas/tituloprincipal.dart';
+//import 'package:ejercicioclase/vistas/ListaPOI.dart';
+//import 'package:ejercicioclase/vistas/tituloprincipal.dart';
 import 'package:flutter/material.dart';
 
 class Login extends StatefulWidget {
